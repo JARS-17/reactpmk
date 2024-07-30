@@ -30,9 +30,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-260} duration={500}>
-            Profil
-          </Link>
+            <a href='/profil' target="_blank" rel="noopener noreferrer"> Profil </a>
         </li>
         <li>
           <Link to="docum" smooth={true} offset={-260} duration={500}>
