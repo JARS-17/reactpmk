@@ -16,7 +16,7 @@ const App = () => {
       <div>
         <Navbar />
         <Hero />
-        <div className="contaier">
+        <div className="container">
           <Title subTitle="Our Events" Title="Ibadah Persekutuan" />
           <Programs />
           <About/>
