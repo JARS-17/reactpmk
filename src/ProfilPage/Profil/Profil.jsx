@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../../Components/Navbar/Navbar";
 import './Profil.css';
 import { Link } from 'react-router-dom';
 
