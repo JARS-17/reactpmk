@@ -33,9 +33,7 @@ const Navbar = () => {
             <a href='/profil' target="_blank" rel="noopener noreferrer"> Profil </a>
         </li>
         <li>
-          <Link to="docum" smooth={true} offset={-260} duration={500}>
-            Team
-          </Link>
+          <a href='/pengurus' target="_blank" rel="noopener noreferrer"> Pengurus </a>
         </li>
 
         <li>
