@@ -7,7 +7,7 @@ import About from "../../HomePage/About/About";
 import Docum from "../../HomePage/Docum/Docum";
 import Testimonials from "../../HomePage/Testimonials/Testimonials";
 import Contact from "../../HomePage/Contact/Contact";
-import Footer from "../../Components/Footer/Footer";
+import Footer from "../../Components/Footer";
 import VideoPlayer from "../VideoPlayer/VideoPlayer";
 import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
