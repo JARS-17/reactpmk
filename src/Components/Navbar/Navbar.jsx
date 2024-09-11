@@ -18,22 +18,42 @@ const Navbar = () => {
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} alt="" className="logo" />
-      <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
+      <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          <Link to="hero" smooth={true} offset={0} duration={500}>
-            Beranda
-          </Link>
+          <a href="/Home" target="_blank" rel="noopener noreferrer" smooth={true} offset={-260} duration={500}>
+            {" "}
+            Home{" "}
+          </a>
         </li>
         <li>
-          <Link to="program" smooth={true} offset={-260} duration={500}>
-            Ibadah
-          </Link>
+          <a href="/Profil" target="_blank" rel="noopener noreferrer" smooth={true} offset={-260} duration={500}>
+            {" "}
+            Profil{" "}
+          </a>
         </li>
         <li>
-            <a href='/profil' target="_blank" rel="noopener noreferrer"> Profil </a>
+          <a href="/Pengurus" target="_blank" rel="noopener noreferrer" smooth={true} offset={-260} duration={500}>
+            {" "}
+            Pengurus{" "}
+          </a>
         </li>
         <li>
-          <a href='/pengurus' target="_blank" rel="noopener noreferrer"> Pengurus </a>
+          <a href="/Renungan" target="_blank" rel="noopener noreferrer" smooth={true} offset={-260} duration={500}>
+            {" "}
+            Renungan{" "}
+          </a>
+        </li>
+        <li>
+          <a href="/Persembahan" target="_blank" rel="noopener noreferrer" smooth={true} offset={-260} duration={500}>
+            {" "}
+            Persembahan{" "}
+          </a>
+        </li>
+        <li>
+          <a href="/Dokumentasi" target="_blank" rel="noopener noreferrer">
+            {" "}
+            Dokumentasi{" "}
+          </a>
         </li>
 
         <li>
